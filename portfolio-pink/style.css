@@ -1,0 +1,237 @@
+*{
+    font-family: Georgia, Times, serif;
+    margin: 0;
+    padding: 0;
+    
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+#main {
+    background-color: #d3cec6;
+}
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 3rem 12% 1rem;
+    backdrop-filter: blur(8px);
+    background: linear-gradient( #ea216ee6, #ee4c43e4);
+    display: flex;
+    align-items: center; 
+    z-index: 5;
+
+}
+/* span{
+    color: teal;
+    text-decoration: line-through;
+    background-color: #0000001c;
+} */
+.header .logo{
+    color: black;
+    font-size: 4rem;
+    font-weight: 800;
+    letter-spacing: 0.1px;
+    text-decoration: teal underline;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+.header .navbar{
+    gap: 30px;
+}
+.header .navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 4rem;
+    border-bottom: 3px solid transparent;
+} 
+.header .navbar a:hover{
+    color:white;
+    border-bottom: 3px solid teal;
+}
+section{
+    min-height: 75vh;
+    padding: 10rem 12% 10rem;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15rem;
+}
+.home-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    text-align: left;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.home .h-image{
+    border-radius: 50%;    
+}
+.home .h-image img{
+    position: relative;
+    top: 3rem;
+    border-radius: 50%;
+    box-shadow: 0 0 25px #ea216ee6;
+    cursor: pointer;
+    transform: 0.4s ease-in-out;
+}
+.home h3 {
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 30px;
+    text-align: center;
+}
+.home .btn-grp {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem; 
+}
+.home .btn-grp .btn,
+.btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: #ea216ee6;
+    box-shadow: 0 0 25px #ea216ee6;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: black;
+    border: 2px solid transparent;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    cursor: pointer; 
+    text-decoration: none;
+    
+}
+.home .btn-grp .btn:hover,
+.btn{
+    color: black;
+    background-color: transparent;
+}
+.heading{
+    font-size: 8rem;
+    text-align: center;
+    margin: 5rem 0;
+
+}
+.education{
+    padding: 100px 15px;
+    background:#12121294;
+}
+.education h2{
+    margin-bottom: 5rem;
+}
+.timeline-items{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.timeline-item{
+    margin-bottom: 40px;
+    width: 100%;
+    position: relative;
+}
+
+.timeline-date{
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    margin: 6px 0 15px;
+}
+.timeline-content{
+    background-color: #3a37377b;
+    border: 3px solid #ea216ee6;
+    padding: 30px 50px;
+    border-radius: 4rem;
+    box-shadow: 0 0 10px #ee4c43e4;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    color: white;
+}
+.cont-wrap {
+    display: flex;
+    justify-content: space-around;
+}
+.contact1 li a{
+    text-decoration: none;
+    color:#ea216ee6 ;
+}
+.contact1{
+    font-size: 25px;
+    list-style: circle;
+}
+.contact form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+    text-align: center;
+}
+.contact form .input-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact form .input-box input,
+.contact form textarea{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.8rem;
+    color: white;
+    background: var #131313;
+    border-radius: 2rem;
+    border: 2px solid #ea216ee6;
+    margin: 1rem 0;
+    resize: none;
+}
+.btn{
+    margin-top: 2rem;
+}
+
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: #131313b8;
+}
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6rem;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer ul li a{
+    color: white;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+}
+.footer ul li a:hover{
+    border-bottom: 3px solid teal;
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer .copyright{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+
